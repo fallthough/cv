@@ -94,7 +94,7 @@
                             <li>Performing maintenance work such as root cause analysis, bug fixing, and code optimizations</li>
                             <li>Testing support which covers automated testing and, in some cases, manual tests</li>
                             <li>Providing technical assistance for customers or business analysts</li>
-                            <li>Using several technologies such as PL/SQL, Java, Docker and Kafka</li>
+                            <li>Using several technologies such as PL/SQL, Java, Spring Boot, Hibernate, Kafka, Docker and Openshift </li>
                         </ul>
                         
                     </div><!--//details-->
@@ -143,7 +143,44 @@
                 </div><!--//item-->
                 
             </section><!--//section-->
-
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
+                <div class="item">
+                    <span class="project-title">FinTS ACP Interface</span> - 
+                    <span class="project-tagline">A project interfacing the Avaloq Core Banking System to FinTS, an online banking protocol used by German banks.
+                        Implemented as several microservices interacting with each other via RESTful APIs. These microservices are created using Java Spring Boot and Hibernate.
+                        The Avaloq Core is the master of data where a subset is emitted and published to Kafka. These microservices then consume these Kafka topics to populate their own repository.
+                        The applications are dockerized and deployed to Openshift.
+                    </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Bestcom tools</span> - 
+                    <span class="project-tagline">A collection of CLI tools for promoting Bestcom Collection data into Integration.
+                        Collection data are raw data feeds coming from the vendors and dumped into the Collection database. 
+                        The data are then transformed and promoted into Integration database which are used for several purposes.
+                        The tools are created in Perl and Microsoft SQL Server as the relational database management system.
+                    </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">PCPPI Sales and Collection app</span> - 
+                    <span class="project-tagline">A Windows Mobile application implemented using VisualBasic.net for the sales agents of Pepsi-Cola Products Philippines Inc. They use it for 
+                        tracking their sales route, taking sales order and issuing collection receipts. The data is temporarily stored in the device using the SQL Server Compact which are then synchronized 
+                        to the SQL Server as the main database through Microsoft ActiveSnyc.
+                    </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">MAPA Ticketing app</span> - 
+                    <span class="project-tagline">A mobile ticketing system which is a PalmOS native application created using Delphi for Makati Parking Authority's On-Street Parking.
+                        Each parking attendant has this device used for issuing parking tickets and tracking elapsed time. 
+                        A custom API called conduit was developed for putting and gathering data to and from the device which is then stored in a MySQL database. 
+                    </span>
+                </div><!--//item-->
+                <!-- <div class="item">
+                    <span class="project-title"><a href="empty">ItsAJoyPaulDay</a></span> - 
+                    <span class="project-tagline">A side project which is an e-RSVP for my own wedding</span>
+                </div> -->
+            </section>
             <section class="skills-section section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
                 <div class="skillset">        
@@ -164,56 +201,36 @@
                     <div class="item">
                         <h3 class="level-title">Perl</h3>
                         <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>                               
                     </div><!--//item-->
 
                     <div class="item">
                         <h3 class="level-title">Java</h3>
                         <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>                               
-                    </div><!--//item-->
-                    
+                    </div><!--//item-->  
                     <div class="item">
                         <h3 class="level-title">Visual Basic .NET</h3>
                         <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>                               
                     </div><!--//item-->
-                    
+                    <div class="item">
+                        <h3 class="level-title">Containerization</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                               
+                    </div><!--//item-->
                     <div class="item">
                         <h3 class="level-title">Javascript</h3>
                         <div class="progress level-bar">
-							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>                                
                     </div><!--//item-->
                 </div>  
             </section><!--//skills-section-->
-
-            <section class="section projects-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
-                <div class="item">
-                    <span class="project-title">FinTS ACP Adapter</span> - 
-                    <span class="project-tagline">A project interfacing the Avaloq Core Banking System to FinTS, an online banking protocol used by German banks</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title">Bestcom Promotion</span> - 
-                    <span class="project-tagline">A collection of CLI tools for promoting Bestcom Collection data into Integration</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title">MAPA Ticketing</span> - 
-                    <span class="project-tagline">A mobile ticketing system for Makati Parking Authority's On-Street Parking</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title">FFC Collection</span> - 
-                    <span class="project-tagline">A mobile application used by Fundline Finance Corporation agents for tracking their collection and issuing collection receipts</span>
-                </div><!--//item-->
-                <!-- <div class="item">
-                    <span class="project-title"><a href="empty">ItsAJoyPaulDay</a></span> - 
-                    <span class="project-tagline">A side project which is an e-RSVP for my own wedding</span>
-                </div> -->
-            </section>
         </div><!--//main-body-->
     </div>
  
