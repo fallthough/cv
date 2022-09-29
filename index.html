@@ -89,12 +89,15 @@
                     </div><!--//meta-->
                     <!-- <h4 class="roles">Roles and Responsibilities</h4> -->
                     <div class="details">
-                        <ul><li>Part of a team responsible for the core components in Payments business area</li>  
-                            <li>Developing and implementing new features based on internal and external requirements</li>  
+                        <ul><li>Part of an agile team responsible for the core components in Payments business area</li>  
+                            <li>Implementing new features based on internal and external requirements</li>
+                            <li>Creating APIs that interfaces the core system to external services></li>
+                            <li>Developing several self-contained services that communicate with each other through several messaging strategies</li>  
                             <li>Performing maintenance work such as root cause analysis, bug fixing, and code optimizations</li>
                             <li>Testing support which covers automated testing and, in some cases, manual tests</li>
                             <li>Providing technical assistance for customers or business analysts</li>
-                            <li>Using several technologies such as PL/SQL, Java, Spring Boot, Hibernate, Kafka, Docker and Openshift </li>
+                            <li>Using several technologies such as PL/SQL, Java and Springboot, JPA and Hibernate, ActiveMQ and Kafka Streams as messaging services, Terraform for IaC tool</li>
+                            <li>Deploying to both AWS and Openshift as public and private cloud respectively</li>
                         </ul>
                         
                     </div><!--//details-->
@@ -147,6 +150,12 @@
             <section class="section projects-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
                 <div class="item">
+                    <span class="project-title">Instant Payment</span>
+                    <span class="project-tagline">A public cloud solution that will cater to Switzerland and European market where the need for low latency, high performance, elastic scalability and easily deployable on AWS. During implementation we employ using Domain Driven Design (DDD) for software architecture and infrastructure as Code (IaC) to manage provisioning and managing infrastructure.
+                        We started building the software by using Modular Monolith architecture so that main components and functionalities and later migrate each service as a microservice that communicate either synchronously or asynchronously.
+                    </span>
+                </div>
+                <div class="item">
                     <span class="project-title">FinTS ACP Interface</span> - 
                     <span class="project-tagline">A project interfacing the Avaloq Core Banking System to FinTS, an online banking protocol used by German banks.
                         Implemented as several microservices interacting with each other via RESTful APIs. These microservices are created using Java Spring Boot and Hibernate.
@@ -175,26 +184,24 @@
                         Each parking attendant has this device used for issuing parking tickets and tracking elapsed time. 
                         A custom API called conduit was developed for putting and gathering data to and from the device which is then stored in a MySQL database. 
                     </span>
-                </div><!--//item-->
-                <!-- <div class="item">
-                    <span class="project-title"><a href="empty">ItsAJoyPaulDay</a></span> - 
-                    <span class="project-tagline">A side project which is an e-RSVP for my own wedding</span>
-                </div> -->
+                </div>
             </section>
+
             <section class="skills-section section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
-                <div class="skillset">        
+                <div class="skillset">     
+                    
                     <div class="item">
-                        <h3 class="level-title">PL/SQL</h3>
+                        <h3 class="level-title">Java</h3>
                         <div class="progress level-bar">
 						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>                               
-                    </div><!--//item-->
+                    </div><!--//item-->  
 
                     <div class="item">
                         <h3 class="level-title">SQL</h3>
                         <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>                               
                     </div><!--//item-->
 
@@ -206,28 +213,10 @@
                     </div><!--//item-->
 
                     <div class="item">
-                        <h3 class="level-title">Java</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                               
-                    </div><!--//item-->  
-                    <div class="item">
                         <h3 class="level-title">Visual Basic .NET</h3>
                         <div class="progress level-bar">
 						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>                               
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Containerization</h3>
-                        <div class="progress level-bar">
-						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                               
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Javascript</h3>
-                        <div class="progress level-bar">
-							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>                                
                     </div><!--//item-->
                 </div>  
             </section><!--//skills-section-->
